@@ -1,0 +1,159 @@
+{
+  "fechasDisponibles": [
+    {
+      "fechaISO": "2026-10-22",
+      "etiquetaDia": "Jueves 22 Oct",
+      "nombreDiaCorto": "JUE",
+      "numeroDia": "22"
+    },
+    {
+      "fechaISO": "2026-10-23",
+      "etiquetaDia": "Viernes 23 Oct",
+      "nombreDiaCorto": "VIE",
+      "numeroDia": "23"
+    },
+    {
+      "fechaISO": "2026-10-24",
+      "etiquetaDia": "Sábado 24 Oct",
+      "nombreDiaCorto": "SÁB",
+      "numeroDia": "24"
+    },
+    {
+      "fechaISO": "2026-10-27",
+      "etiquetaDia": "Martes 27 Oct",
+      "nombreDiaCorto": "MAR",
+      "numeroDia": "27"
+    }
+  ],
+  "franjasHorariasBase": [
+    "10:00",
+    "10:45",
+    "11:30",
+    "12:15",
+    "13:00",
+    "16:30",
+    "17:15",
+    "18:00",
+    "18:45",
+    "19:30"
+  ],
+  "galeriaCortes": [
+    {
+      "idCorte": "corte-01",
+      "nombreEstilo": "Low Fade & Textura Superior",
+      "etiquetaTendencia": "Más pedido",
+      "descripcionCorta": "Degradado bajo limpio con desconexión suave a tijera en la zona superior.",
+      "urlImagen": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80",
+      "idServicioAsociado": "srv-corte-autor",
+      "acabadoRecomendado": "Arcilla mate de fijación media"
+    },
+    {
+      "idCorte": "corte-02",
+      "nombreEstilo": "Taper Clásico & Barba Esculpida",
+      "etiquetaTendencia": "Signature",
+      "descripcionCorta": "Contornos naturales en patilla y nuca combinados con perfilado de barba a navaja.",
+      "urlImagen": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80",
+      "idServicioAsociado": "srv-completo",
+      "acabadoRecomendado": "Aceite de cedro y peine ancho"
+    },
+    {
+      "idCorte": "corte-03",
+      "nombreEstilo": "French Crop Minimalista",
+      "etiquetaTendencia": "Tendencia 2026",
+      "descripcionCorta": "Flequillo recto despuntado con volumen controlado y laterales pulidos.",
+      "urlImagen": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80",
+      "idServicioAsociado": "srv-corte-autor",
+      "acabadoRecomendado": "Polvo voluminizador mineral"
+    },
+    {
+      "idCorte": "corte-04",
+      "nombreEstilo": "Corte Clásico íntegramente a Tijera",
+      "etiquetaTendencia": "Ejecutivo",
+      "descripcionCorta": "Caída natural con movimiento orgánico y crecimiento limpio durante semanas.",
+      "urlImagen": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80",
+      "idServicioAsociado": "srv-corte-autor",
+      "acabadoRecomendado": "Crema de peinado sin brillo"
+    },
+    {
+      "idCorte": "corte-05",
+      "nombreEstilo": "Ritual Tradicional de Barba & Toalla",
+      "etiquetaTendencia": "Experiencia Spa",
+      "descripcionCorta": "Afeitado o arreglo geométrico con doble toalla caliente aromática.",
+      "urlImagen": "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=800&q=80",
+      "idServicioAsociado": "srv-ritual-barba",
+      "acabadoRecomendado": "Bálsamo calmante post-afeitado"
+    },
+    {
+      "idCorte": "corte-06",
+      "nombreEstilo": "Mid Fade & Quiff Contemporáneo",
+      "etiquetaTendencia": "Versátil",
+      "descripcionCorta": "Transición media impecable con elevación frontal trabajada con secador.",
+      "urlImagen": "https://images.unsplash.com/photo-1517832607067-4db24a2ae47c?auto=format&fit=crop&w=800&q=80",
+      "idServicioAsociado": "srv-completo",
+      "acabadoRecomendado": "Pomada al agua de acabado natural"
+    }
+  ],
+  "servicios": [
+    {
+      "id": "srv-corte-autor",
+      "nombre": "Corte de Autor & Lavado Botánico",
+      "categoria": "Corte y Estilo",
+      "duracionMinutos": 45,
+      "precioEuros": 26,
+      "descripcion": "Estudio morfológico craneal, corte a tijera y máquina de precisión, lavado relajante y acabado mate."
+    },
+    {
+      "id": "srv-completo",
+      "nombre": "Sesión Integral (Corte + Ritual de Barba)",
+      "categoria": "Corte y Estilo",
+      "duracionMinutos": 75,
+      "precioEuros": 42,
+      "descripcion": "Experiencia completa de renovación de imagen con asesoramiento personalizado y toalla caliente."
+    },
+    {
+      "id": "srv-ritual-barba",
+      "nombre": "Afeitado Tradicional con Toalla Caliente",
+      "categoria": "Ritual Barba",
+      "duracionMinutos": 35,
+      "precioEuros": 21,
+      "descripcion": "Perfilado a navaja libre con doble compresa térmica de eucalipto, aceites esenciales de cedro y bálsamo."
+    },
+    {
+      "id": "srv-tratamiento-cuero",
+      "nombre": "Detox Oxigenante de Cuero Cabelludo",
+      "categoria": "Tratamiento Capilar",
+      "duracionMinutos": 40,
+      "precioEuros": 32,
+      "descripcion": "Exfoliación suave mineral y masaje estimulante para fortalecer el folículo y equilibrar la hidratación."
+    }
+  ],
+  "reservasOcupadas": [
+    {
+      "idReserva": "res-101",
+      "fechaISO": "2026-10-22",
+      "hora": "10:45",
+      "idServicio": "srv-corte-autor",
+      "idEspecialista": "esp-marcos",
+      "nombreCliente": "Javier Morales",
+      "telefonoCliente": "600112233"
+    },
+    {
+      "idReserva": "res-102",
+      "fechaISO": "2026-10-22",
+      "hora": "17:15",
+      "idServicio": "srv-completo",
+      "idEspecialista": "esp-daniel",
+      "nombreCliente": "Carlos Mendoza",
+      "telefonoCliente": "600445566"
+    },
+    {
+      "idReserva": "res-103",
+      "fechaISO": "2026-10-23",
+      "hora": "11:30",
+      "idServicio": "srv-ritual-barba",
+      "idEspecialista": "esp-elena",
+      "nombreCliente": "Álvaro Pardo",
+      "telefonoCliente": "600778899"
+    }
+  ]
+}

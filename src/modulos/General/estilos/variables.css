@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * MENTORING JUNIOR - MOTOR DE COLORES DINÁMICOS HSL CON CALC():
+ * ---------------------------------------------------------------------------
+ * ¿Por qué usamos HSL (Hue/Tono, Saturation/Saturación, Lightness/Luminosidad)
+ * en vez de códigos HEX (#2563eb) para una aplicación White-Label?
+ *
+ * Porque en HEX no podemos calcular variantes matemáticamente desde CSS nativo.
+ * Con HSL separado en 3 variables independientes:
+ *   1. `--color-tono` (0 a 360 grados en la rueda de color)
+ *   2. `--color-saturacion` (0% a 100%)
+ *   3. `--color-luminosidad` (0% a 100%)
+ *
+ * Podemos usar la función `calc()` de CSS para derivar automáticamente el color
+ * `hover` (oscureciendo la luminosidad un 7%), el estado `active` (oscureciendo
+ * un 13%) y el fondo secundario suave (elevando la luminosidad a un tono muy claro).
+ *
+ * Así, cuando vendemos un módulo a un nuevo cliente, solo cambiamos esos 3 números
+ * en su archivo `configuracionCliente.json` y toda la interfaz se adapta sin tocar CSS.
+ */
+:root {
+  /* Valores por defecto (Gris carbón ejecutivo para el Portafolio / General) */
+  --color-tono: 215;
+  --color-saturacion: 25%;
+  --color-luminosidad: 24%;
+
+  /* Color primario base construido con las 3 variables */
+  --color-primario: hsl(
+    var(--color-tono),
+    var(--color-saturacion),
+    var(--color-luminosidad)
+  );
+
+  /* Hover: reduce la luminosidad en 7 puntos porcentuales mediante calc() */
+  --color-primario-hover: hsl(
+    var(--color-tono),
+    var(--color-saturacion),
+    calc(var(--color-luminosidad) - 7%)
+  );
+
+  /* Active (clic presionado): reduce la luminosidad en 13 puntos porcentuales */
+  --color-primario-activo: hsl(
+    var(--color-tono),
+    var(--color-saturacion),
+    calc(var(--color-luminosidad) - 13%)
+  );
+
+  /* Fondo secundario sutil: conserva el tono del cliente pero sube la luminosidad */
+  --color-fondo-secundario: hsl(
+    var(--color-tono),
+    calc(var(--color-saturacion) * 0.65),
+    calc(var(--color-luminosidad) + 44%)
+  );
+
+  /* Borde sutil tintado con el tono del cliente */
+  --color-borde-tono: hsl(
+    var(--color-tono),
+    calc(var(--color-saturacion) * 0.6),
+    calc(var(--color-luminosidad) + 22%)
+  );
+}
+
+@layer base {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Utilidad para ocultar la barra de scroll nativa en el carrusel táctil 4 en 4 */
+.ocultar-barra-scroll::-webkit-scrollbar {
+  display: none;
+}
+.ocultar-barra-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

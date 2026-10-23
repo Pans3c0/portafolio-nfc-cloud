@@ -1,0 +1,49 @@
+{
+  "identificadorCliente": "peluqueria-atelier-norte",
+  "nombreComercial": "Atelier Norte · Studio & Barbería",
+  "eslogan": "Cortes de autor, estética contemporánea y reserva móvil en 4 pasos vía NFC",
+  "descripcionCorta": "Inspírate con nuestra galería de cortes y estilos reales. Pulsa en «Reservar Cita Ahora» para abrir el asistente paso a paso a pantalla completa diseñado para tu móvil.",
+  "inicialesLogo": "AN",
+  "direccionFisica": "Calle de Fernando VI, 18 · Madrid",
+  "telefonoContacto": "+34 910 45 82 19",
+  "horarioAtencion": "Mar - Sáb: 10:00 a 20:30 h",
+  "codigoEtiquetaNFC": "NFC-PEL-018",
+  "colorBaseHSL": {
+    "tono": 24,
+    "saturacion": 38,
+    "luminosidad": 26
+  },
+  "notaPoliticaCancelacion": "Reserva gratuita sin pago por adelantado. Abona cómodamente en el salón tras tu sesión.",
+  "textoBotonPrincipalReserva": "Reservar Cita Ahora",
+  "subtituloGaleriaCortes": "Lookbook de Cortes y Estilos · Selecciona tu favorito o inicia tu reserva directa",
+  "especialistasActivos": [
+    {
+      "idEspecialista": "esp-cualquiera",
+      "nombre": "Primer Profesional Disponible",
+      "cargo": "Asignación inteligente sin esperas",
+      "experienciaAnos": 10,
+      "iniciales": "AN"
+    },
+    {
+      "idEspecialista": "esp-marcos",
+      "nombre": "Marcos Valdés",
+      "cargo": "Director de Corte & Visagismo",
+      "experienciaAnos": 12,
+      "iniciales": "MV"
+    },
+    {
+      "idEspecialista": "esp-elena",
+      "nombre": "Elena Quiroga",
+      "cargo": "Especialista en Textura & Tijera",
+      "experienciaAnos": 8,
+      "iniciales": "EQ"
+    },
+    {
+      "idEspecialista": "esp-daniel",
+      "nombre": "Daniel Soria",
+      "cargo": "Maestro Barbero & Degradados",
+      "experienciaAnos": 9,
+      "iniciales": "DS"
+    }
+  ]
+}

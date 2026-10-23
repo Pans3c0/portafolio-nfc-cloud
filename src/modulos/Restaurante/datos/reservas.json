@@ -1,0 +1,207 @@
+{
+  "platosCarta": [
+    {
+      "id": "plato-hamburguesa-ron-damon",
+      "nombre": "HAMBURGUESA RON DAMÓN",
+      "descripcionIngredientes": "150 grs de Carne de Ternera, 100 grs de Lomo de Cerdo Horneado, Queso Edam, Patatas Paja, + Salsas.",
+      "categoria": "Hamburguesas",
+      "precioEuros": 7.50,
+      "alergenos": ["Gluten", "Lactosa", "Huevo", "Mostaza"],
+      "urlImagen": "/assets/Restaurante/hamburguesa-don-ramon.webp",
+      "etiquetaSticker": "LA JEFA DE LA VECINDAD",
+      "destacadoEnPortada": true
+    },
+    {
+      "id": "plato-hamburguesa-chavo",
+      "nombre": "HAMBURGUESA CHAVO",
+      "descripcionIngredientes": "150 grs de Carne de Ternera, Queso Edam, Patatas Paja, + Salsas.",
+      "categoria": "Hamburguesas",
+      "precioEuros": 6.00,
+      "alergenos": ["Gluten", "Lactosa", "Huevo", "Mostaza"],
+      "urlImagen": "/assets/Restaurante/hamburguesa-chavo.webp",
+      "etiquetaSticker": "CLÁSICA & CRUJIENTE",
+      "destacadoEnPortada": true
+    },
+    {
+      "id": "plato-perrito-don-barriga-xl",
+      "nombre": "PERRITO DON BARRIGA XL",
+      "descripcionIngredientes": "Patatas Paja, Huevo Cocido, Bacon, Zanahoria, Repollo, Maíz, Cebolla, Queso Edam, Alioli, Mostaza, Ketchup, Salsa Picante.",
+      "categoria": "Perritos XL",
+      "precioEuros": 7.70,
+      "alergenos": ["Gluten", "Lactosa", "Huevo", "Mostaza"],
+      "urlImagen": "/assets/Restaurante/perrito-don-barriga-xl.webp",
+      "etiquetaSticker": "24 CM · FULL EQUIPO",
+      "destacadoEnPortada": true
+    },
+    {
+      "id": "plato-perrito-venezolano-xl",
+      "nombre": "PERRITO VENEZOLANO XL",
+      "descripcionIngredientes": "Patatas Paja, Repollo, Cebolla, Queso Gouda, Mostaza, Ketchup, Mayonesa.",
+      "categoria": "Perritos XL",
+      "precioEuros": 6.70,
+      "alergenos": ["Gluten", "Lactosa", "Huevo", "Mostaza"],
+      "urlImagen": "/assets/Restaurante/perrito-venezolano-xl.webp",
+      "etiquetaSticker": "POPULAR EN MAPS",
+      "destacadoEnPortada": true
+    },
+    {
+      "id": "plato-perrito-mexicano-xl",
+      "nombre": "PERRITO MEXICANO XL",
+      "descripcionIngredientes": "Salchicha XL, Carne Sazonada, Pico de Gallo, Jalapeños, Patatas Paja, Queso Fundido y Salsas de la Casa.",
+      "categoria": "Perritos XL",
+      "precioEuros": 7.20,
+      "alergenos": ["Gluten", "Lactosa", "Huevo", "Mostaza"],
+      "urlImagen": "/assets/Restaurante/perrito-mexicano-xl.webp",
+      "etiquetaSticker": "TOQUE PICANTE",
+      "destacadoEnPortada": false
+    },
+    {
+      "id": "plato-pizza-barbacoa-28cm",
+      "nombre": "BARBACOA 28CM",
+      "descripcionIngredientes": "CARNE PICADA, BACON Y MOZZARELLA.",
+      "categoria": "Pizzas 28cm",
+      "precioEuros": 9.20,
+      "alergenos": ["Gluten", "Lactosa"],
+      "urlImagen": "/assets/Restaurante/pizza-barbacoa.webp",
+      "etiquetaSticker": "PIZZA 28 CM",
+      "destacadoEnPortada": false
+    },
+    {
+      "id": "plato-pizza-cuatro-quesos-28cm",
+      "nombre": "CUATRO QUESOS 28 CM",
+      "descripcionIngredientes": "QUESOS MANCHEGO, GOUDA, EDAM Y MOZZARELLA.",
+      "categoria": "Pizzas 28cm",
+      "precioEuros": 9.00,
+      "alergenos": ["Gluten", "Lactosa"],
+      "urlImagen": "/assets/Restaurante/pizza-cuatro-quesos.webp",
+      "etiquetaSticker": "POPULAR EN MAPS",
+      "destacadoEnPortada": false
+    },
+    {
+      "id": "plato-pizza-suprema-28cm",
+      "nombre": "SUPREMA 28 CM",
+      "descripcionIngredientes": "JAMÓN YORK, BACON, MAÍZ, CHAMPIÑONES, CHORIZO DULCE, PASTA DE TOMATE, MOZZARELLA.",
+      "categoria": "Pizzas 28cm",
+      "precioEuros": 11.00,
+      "alergenos": ["Gluten", "Lactosa"],
+      "urlImagen": "/assets/Restaurante/pizza-suprema.webp",
+      "etiquetaSticker": "SUPER COMPLETA",
+      "destacadoEnPortada": true
+    },
+    {
+      "id": "plato-salchipapas-jirafales",
+      "nombre": "SALCHIPAPAS JIRAFALES",
+      "descripcionIngredientes": "Lomo de Cerdo, Bacon, Salchichas, Maíz, Alioli.",
+      "categoria": "Para Picar",
+      "precioEuros": 11.50,
+      "alergenos": ["Huevo", "Lactosa"],
+      "urlImagen": "/assets/Restaurante/salchipapa-jirafales.webp",
+      "etiquetaSticker": "TENDENCIA EN GIJÓN",
+      "destacadoEnPortada": true
+    },
+    {
+      "id": "plato-tequenos-queso",
+      "nombre": "TEQUEÑOS QUESO",
+      "descripcionIngredientes": "6 Unidades.",
+      "categoria": "Para Picar",
+      "precioEuros": 9.00,
+      "alergenos": ["Gluten", "Lactosa"],
+      "urlImagen": "/assets/Restaurante/tequenos-queso.webp",
+      "etiquetaSticker": "6 UNIDADES · POPULAR",
+      "destacadoEnPortada": false
+    },
+    {
+      "id": "plato-tequenos-queso-guayaba",
+      "nombre": "TEQUEÑOS QUESO GUAYABA",
+      "descripcionIngredientes": "5 Unidades.",
+      "categoria": "Para Picar",
+      "precioEuros": 9.00,
+      "alergenos": ["Gluten", "Lactosa"],
+      "urlImagen": "/assets/Restaurante/tequenos-queso.webp",
+      "etiquetaSticker": "5 UNIDADES · DULCE & SALADO",
+      "destacadoEnPortada": false
+    },
+    {
+      "id": "bebida-coca-cola-zero",
+      "nombre": "Coca Cola Zero",
+      "descripcionIngredientes": "Bote 350 ml.",
+      "categoria": "Bebidas",
+      "precioEuros": 2.50,
+      "alergenos": [],
+      "urlImagen": "/assets/Restaurante/cocacola-ligth.webp",
+      "etiquetaSticker": "ZERO AZÚCAR",
+      "destacadoEnPortada": false
+    },
+    {
+      "id": "bebida-coca-cola-original",
+      "nombre": "Coca Cola Original",
+      "descripcionIngredientes": "Bote 350 ml.",
+      "categoria": "Bebidas",
+      "precioEuros": 2.50,
+      "alergenos": [],
+      "urlImagen": "/assets/Restaurante/cocacola-original.webp",
+      "etiquetaSticker": "SABOR ORIGINAL",
+      "destacadoEnPortada": false
+    }
+  ],
+  "fechasDisponibles": [
+    { "fechaISO": "2026-10-23", "etiquetaDia": "Hoy Viernes" },
+    { "fechaISO": "2026-10-24", "etiquetaDia": "Mañana Sáb" },
+    { "fechaISO": "2026-10-25", "etiquetaDia": "Domingo" }
+  ],
+  "turnosBase": [
+    {
+      "idTurno": "turno-1430-salon",
+      "hora": "14:30",
+      "etiquetaTurno": "Comida / Tarde",
+      "zona": "Zona de Bar / Salón",
+      "mesasDisponibles": 4
+    },
+    {
+      "idTurno": "turno-2030-terraza",
+      "hora": "20:30",
+      "etiquetaTurno": "Cena",
+      "zona": "Terraza Exterior",
+      "mesasDisponibles": 3
+    },
+    {
+      "idTurno": "turno-2130-salon",
+      "hora": "21:30",
+      "etiquetaTurno": "Cena",
+      "zona": "Zona de Bar / Salón",
+      "mesasDisponibles": 5
+    },
+    {
+      "idTurno": "turno-2230-salon",
+      "hora": "22:30",
+      "etiquetaTurno": "Cena",
+      "zona": "Zona de Bar / Salón",
+      "mesasDisponibles": 4
+    },
+    {
+      "idTurno": "turno-2345-barra",
+      "hora": "23:45",
+      "etiquetaTurno": "Madrugada (Late Night)",
+      "zona": "Asientos en Barra",
+      "mesasDisponibles": 4
+    },
+    {
+      "idTurno": "turno-0100-salon",
+      "hora": "01:00",
+      "etiquetaTurno": "Madrugada (Late Night)",
+      "zona": "Zona de Bar / Salón",
+      "mesasDisponibles": 3
+    }
+  ],
+  "reservasMesaOcupadas": [
+    {
+      "idReserva": "MESA-901",
+      "fechaISO": "2026-10-23",
+      "hora": "22:30",
+      "zona": "Zona de Bar / Salón",
+      "numeroComensales": 4,
+      "nombreCliente": "Reserva Registrada",
+      "telefonoCliente": "600 111 222"
+    }
+  ]
+}

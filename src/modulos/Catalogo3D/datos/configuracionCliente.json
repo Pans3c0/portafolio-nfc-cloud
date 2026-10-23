@@ -1,0 +1,21 @@
+{
+  "identificadorCliente": "estudio-atelier-3d",
+  "nombreComercial": "Atelier 3D · Creación de Figuras & Objetos NFC",
+  "eslogan": "Figuras decorativas de diseño, packs coleccionables y soportes inteligentes con chip NFC",
+  "descripcionCorta": "Explora nuestro catálogo deslizando de 4 en 4. Pulsa en cualquier producto para elegir entre el pack completo o unidades sueltas y añade tecnología NFC si lo deseas.",
+  "inicialesLogo": "3D",
+  "direccionFisica": "Estudio de Diseño & Impresión 3D · España",
+  "telefonoContacto": "+34 611 29 40 88",
+  "horarioAtencion": "Lun - Vie: 09:30 a 19:00 h",
+  "codigoEtiquetaNFC": "NFC-CAT-3D",
+  "colorBaseHSL": {
+    "tono": 34,
+    "saturacion": 17,
+    "luminosidad": 48
+  },
+  "subtituloEditorial": "Conocé nuestro",
+  "tituloEditorial": "CATÁLOGO",
+  "simboloMoneda": "€",
+  "itemsPorPaginaVista": 4,
+  "notaPieCatalogo": "Todos nuestros productos pueden personalizarse con tecnología NFC integrada sin cables ni baterías."
+}

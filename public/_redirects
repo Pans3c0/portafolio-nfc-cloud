@@ -1,0 +1,4 @@
+# Regla para Cloudflare Pages: redirige todas las rutas de la SPA a index.html
+# Esto permite que al escanear una etiqueta NFC con la URL directa (/peluqueria o /restaurante)
+# Cloudflare sirva la aplicación React con código 200 en vez de un error 404.
+/* /index.html 200

@@ -1,0 +1,55 @@
+{
+  "identificadorCliente": "restaurante-ron-damon-gijon",
+  "nombreComercial": "Bar & Café Ron Damón",
+  "eslogan": "Perritos Gigantes 24cm · Burgers · Pizzas 28cm · Salchipapas · Cócteles",
+  "descripcionCorta": "En C. Cataluña, 54 (Gijón-Sur). Si somos tendencia con nuestros Perritos Gigantes y nuestras Salchipapas Jirafales, no nos quedamos atrás con nuestras Burgers, Pizzas, Tequeños y Cócteles. ¡No importa la hora, aquí te atendemos como en casa!",
+  "inicialesLogo": "RD",
+  "codigoEtiquetaNFC": "NFC-RON-DAMON-GIJON",
+  "colorBaseHSL": {
+    "tono": 16,
+    "saturacion": 82,
+    "luminosidad": 42
+  },
+  "direccionFisica": "C. Cataluña, 54, Gijón-Sur, 33210 Gijón, Asturias",
+  "horarioAtencion": "Dom–Jue: 14:00–01:30 · Vie–Sáb: 14:00–02:30 (Mié cerrado)",
+  "telefonoContacto": "+34 648 85 56 79",
+  "notaServicioMesa": "Todos los precios incluyen IVA · Raciones XL recién hechas",
+  "capacidadMaximaPorReserva": 10,
+  "urlImagenMascota": "/assets/Restaurante/don-ramon-comiendo.webp",
+  "etiquetaPromoSuperior": "GIJÓN-SUR · C. CATALUÑA 54 · ABIERTO HASTA LAS 01:30 / 02:30 AM · 4,9 ★ EN GOOGLE (433 RESEÑAS)",
+  "manifiestoTitular": "BAR & CAFÉ RON DAMÓN:",
+  "manifiestoSubtitulo": "SABOR GIGANTE EN GIJÓN",
+  "textoBotonMirarCarta": "VER LA CARTA COMPLETA",
+  "valoracionMediaGoogle": 4.9,
+  "totalResenasGoogle": 433,
+  "rangoPrecioPersona": "10-20 €",
+  "whatsappPedidos": "34648855679",
+  "urlGoogleMaps": "https://www.google.com/maps/search/?api=1&query=Bar+%26+Cafe+Ron+Damon+Calle+Cataluna+54+Gijon+Asturias",
+  "urlFacebook": "https://www.facebook.com/barycaferondamon",
+  "modalidadesServicio": [
+    "Comer allí",
+    "Recogida sin entrar",
+    "A domicilio"
+  ],
+  "notaCoctelesPropietario": "🍹 Especialidad en Cócteles: Pregunta en barra o mesa por nuestro Mojito, Cosmopolitan, Margarita, Mango Loco con Tequila Blanco o Daiquiri de Frutas.",
+  "resenasDestacadas": [
+    {
+      "autor": "Samuel E. Pacheco (Local Guide)",
+      "comentario": "Muy buen ambiente, fui a las 2 am y me atendieron súper bien, buena atención al cliente y muy buena comida sin duda, un sitio al que voy a volver pronto.",
+      "estrellas": 5,
+      "etiqueta": "Comida: 5 · Servicio: 5 · Ambiente: 5"
+    },
+    {
+      "autor": "Reyshen K. Vinueza",
+      "comentario": "El mejor sitio para terminar la noche por sus pizzas y el famoso perrito de la casa, incluyendo un cóctel de mango loco y tequila blanco muy bueno.",
+      "estrellas": 5,
+      "etiqueta": "Cena · 10-20 €"
+    },
+    {
+      "autor": "Reseña destacada en Google",
+      "comentario": "El mejor perrito de 24cm, enormes y riquísimos, también los tequeños, las salchipapas y las hamburguesas. Trato de 10.",
+      "estrellas": 5,
+      "etiqueta": "4,9 ★ (433 reseñas)"
+    }
+  ]
+}

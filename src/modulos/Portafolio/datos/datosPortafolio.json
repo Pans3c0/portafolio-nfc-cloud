@@ -1,0 +1,254 @@
+{
+  "nombreCompleto": "Samuel Edgar Pacheco Velin",
+  "rolEspecialidad": "Desarrollador Full-Stack & ERP · React, React Native, Java Spring Boot, Sage X3 (4GL) & SQL",
+  "ubicacion": "Gijón, Asturias (España)",
+  "emailContacto": "samupachebq@gmail.com",
+  "telefonoContacto": "+34 689 11 37 10",
+  "urlGithub": "https://github.com/Pans3c0",
+  "usuarioGithub": "Pans3c0",
+  "urlLinkedin": "https://www.linkedin.com/in/samuel-edgar-pacheco-velin-07a978207",
+  "propuestaValor": "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) con experiencia profesional real en consultoría tecnológica adaptando el ERP Sage X3 (scripting 4GL, SQL Server, MySQL y SAP Crystal Reports) y Microsoft Dynamics 365 Business Central (Navision), junto con desarrollo moderno en Java Spring Boot, React, React Native, Supabase (PostgreSQL) e infraestructura propia con Proxmox y Docker.",
+  "cartaPresentacionParrafos": [
+    "Soy un desarrollador apasionado por la tecnología, el aprendizaje continuo y la resolución de problemas reales. Combino mi experiencia profesional desarrollando software para clientes empresariales en consultoría con los proyectos Full-Stack, móviles y de infraestructura que construyo de forma constante.",
+    "Durante mi etapa en LIDER IT Consulting trabajé con Sage X3, adaptando el ERP a la lógica de negocio de diferentes compañías mediante desarrollos en Sage 4GL: creé objetos para gestionar albaranes y aprobaciones masivas de entregas, desarrollé workflows para automatizar el envío de correos con facturas y diseñé informes y vistas en SAP Crystal Reports. También me encargué de resolver incidencias en producción cumpliendo SLAs, depurar desarrollos existentes con MySQL y SQL Server, y probar servicios web con Postman documentando todo con Git y Jira.",
+    "En el ámbito web y móvil desarrollo con Java + Spring Boot en el backend y con React y React Native en el frontend, además de PostgreSQL a través de Supabase y automatizaciones en Python (como extracción documental de Word conectada a la API de Notion). Por mi cuenta mantengo un servidor doméstico (Homelab con Proxmox, contenedores LXC y Docker sobre Linux) porque disfruto entendiendo cómo funcionan las aplicaciones desde el código hasta su despliegue en producción."
+  ],
+  "categoriasHabilidades": [
+    {
+      "area": "Frontend & Mobile",
+      "habilidades": [
+        "React",
+        "React Native",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "Thymeleaf",
+        "SAPUI5"
+      ]
+    },
+    {
+      "area": "Backend, APIs & Automatización",
+      "habilidades": [
+        "Java",
+        "Spring Boot",
+        "API REST & Web Services",
+        "Python (Automatización & Notion API)",
+        "Postman"
+      ]
+    },
+    {
+      "area": "ERP & Software Empresarial",
+      "habilidades": [
+        "Sage X3 Classic (Scripting 4GL)",
+        "SAP Crystal Reports",
+        "Business Central (Navision)",
+        "Salesforce"
+      ]
+    },
+    {
+      "area": "Bases de Datos",
+      "habilidades": [
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "Supabase",
+        "DBeaver"
+      ]
+    },
+    {
+      "area": "Sistemas, Homelab & DevOps",
+      "habilidades": [
+        "Linux & Bash",
+        "Docker",
+        "Proxmox VE (LXC)",
+        "Git & GitHub",
+        "Jira",
+        "Cloudflare Pages"
+      ]
+    }
+  ],
+  "experienciaLaboral": [
+    {
+      "puesto": "Desarrollador Web & ERP (Sage X3)",
+      "empresa": "LIDER IT Consulting",
+      "ubicacion": "Gijón, Asturias",
+      "periodo": "Abr 2026 – Sept 2026",
+      "logros": [
+        "Desarrollo y personalización del ERP Sage X3 mediante scripting 4GL: creación de objetos para gestión de albaranes, aprobaciones masivas de entregas y workflows automatizados de envío de facturas por correo.",
+        "Diseño y optimización de consultas SQL y vistas (SQL Server y MySQL), así como creación y mantenimiento de informes corporativos en SAP Crystal Reports.",
+        "Resolución de incidencias en producción, aplicación de parches, pruebas de Web Services con Postman y documentación técnica de flujos, triggers y snippets cumpliendo los SLAs acordados."
+      ],
+      "tecnologiasClave": [
+        "Sage X3 (4GL)",
+        "SAP Crystal Reports",
+        "SQL Server",
+        "MySQL",
+        "Web Services",
+        "Postman",
+        "Git",
+        "Jira"
+      ]
+    },
+    {
+      "puesto": "Desarrollador Web (Prácticas FCT)",
+      "empresa": "LIDER IT Consulting",
+      "ubicacion": "Gijón, Asturias",
+      "periodo": "Ene 2026 – Mar 2026",
+      "logros": [
+        "Rotación técnica en dos equipos de ingeniería de software empresarial.",
+        "Participación en migraciones desde versiones legacy (Navision 2006 R2) hacia Microsoft Dynamics 365 Business Central en la nube.",
+        "Especialización intensiva en la arquitectura y lógica de negocio de Sage X3 Classic, con posterior incorporación directa a la plantilla."
+      ],
+      "tecnologiasClave": [
+        "Business Central (Navision)",
+        "Sage X3 Classic",
+        "SQL"
+      ]
+    },
+    {
+      "puesto": "Prácticas de Desarrollo Web (FCT)",
+      "empresa": "Capgemini",
+      "ubicacion": "Gijón, Asturias",
+      "periodo": "Mar 2025 – Abr 2025",
+      "logros": [
+        "Desarrollo y capacitación técnica con Java Spring Boot, SAPUI5 y Salesforce aplicando patrones de diseño y metodologías de trabajo en entornos corporativos."
+      ],
+      "tecnologiasClave": [
+        "Java",
+        "Spring Boot",
+        "SAPUI5",
+        "Salesforce"
+      ]
+    },
+    {
+      "puesto": "Prácticas de Administración de Bases de Datos",
+      "empresa": "eProgram, S.A.",
+      "ubicacion": "Gijón, Asturias",
+      "periodo": "Nov 2024",
+      "logros": [
+        "Revisión, validación de datos para proyectos de contratación y soporte en gestión documental."
+      ],
+      "tecnologiasClave": [
+        "Bases de Datos",
+        "SQL",
+        "Gestión Documental"
+      ]
+    }
+  ],
+  "proyectosIngenieria": [
+    {
+      "titulo": "Plataforma Full-Stack de Gestión de Tareas (Proyecto DAW)",
+      "subtitulo": "Java Spring Boot · React · PostgreSQL / Supabase",
+      "descripcion": "Aplicación Full-Stack con control de roles de usuario, organización por categorías y etiquetas, y motor de filtrado avanzado por palabras clave, estados y rangos de fechas.",
+      "tecnologias": ["Java", "Spring Boot", "React", "Supabase", "PostgreSQL", "Postman"]
+    },
+    {
+      "titulo": "Automatización Documental Python + API de Notion",
+      "subtitulo": "Python · Procesamiento Word · Notion REST API",
+      "descripcion": "Herramienta de automatización que extrae información estructurada de documentos Word y genera registros automáticamente mediante la API oficial de Notion para agilizar la gestión de clientes y tareas.",
+      "tecnologias": ["Python", "Notion API", "Automatización", "JSON"]
+    },
+    {
+      "titulo": "Homelab & Infraestructura DevOps Autoalojada",
+      "subtitulo": "Proxmox VE · Contenedores LXC · Docker · Linux Bash",
+      "descripcion": "Servidor doméstico de bajo consumo (Mini PC Intel N100, 8 GB RAM, 5 TB) con virtualización Proxmox, contenedores LXC y Docker para despliegue de aplicaciones web propias y administración automatizada en Bash.",
+      "tecnologias": ["Proxmox VE", "Docker", "LXC", "Linux", "Bash"]
+    },
+    {
+      "titulo": "Sistema de Gestión de Guardias Docentes",
+      "subtitulo": "Java Spring Boot · Thymeleaf · MySQL",
+      "descripcion": "Aplicación web para la asignación automática de turnos de guardia del profesorado de un centro educativo con gestión de permisos y persistencia relacional en MySQL.",
+      "tecnologias": ["Java", "Spring Boot", "Thymeleaf", "MySQL"]
+    }
+  ],
+  "formacionAcademica": [
+    {
+      "titulacion": "CFGS en Desarrollo de Aplicaciones Web (DAW)",
+      "centro": "CIFP La Laboral – Gijón",
+      "periodo": "Sept 2024 – Jun 2026"
+    },
+    {
+      "titulacion": "Certificado de Profesionalidad en Administración de Bases de Datos (IFCT0310 · 640 h)",
+      "centro": "Dicampus / INTRA – Gijón",
+      "periodo": "Jun 2024 – Ene 2025"
+    },
+    {
+      "titulacion": "Bachillerato Científico-Tecnológico",
+      "centro": "IES Vallín – Gijón",
+      "periodo": "2024"
+    }
+  ],
+  "pilaresArquitectura": [
+    {
+      "titulo": "Arquitectura Limpia y Modular (FSD)",
+      "explicacion": "Código organizado por dominios de negocio independientes con Lazy Loading y separación estricta entre vistas, servicios e interfaces TypeScript."
+    },
+    {
+      "titulo": "Experiencia Empresarial Real (ERP & SQL)",
+      "explicacion": "Capacidad probada para investigar incidencias complejas en bases de datos productivas (MySQL, SQL Server, PostgreSQL) y adaptar flujos críticos en Sage X3 y Spring Boot."
+    },
+    {
+      "titulo": "Visión End-to-End (Código + Infraestructura)",
+      "explicacion": "Desde interfaces móviles en React / React Native y APIs en Spring Boot hasta la contenerización en Docker, Proxmox LXC y despliegues Edge en Cloudflare."
+    }
+  ],
+  "demosDisponibles": [
+    {
+      "id": "demo-restaurante",
+      "titulo": "Bar & Café Ron Damón (Gijón)",
+      "sectorNegocio": "Hostelería · Carta NFC & Pedidos WhatsApp",
+      "rutaDemo": "/restaurante",
+      "urlEtiquetaNFC": "/restaurante",
+      "resumenFuncional": "Prototipo real adaptado a Bar & Café Ron Damón (C. Cataluña 54, Gijón) con sus 4,9 ★ en Google Maps, carta completa ilustrada, filtro de alérgenos y conexión directa a WhatsApp.",
+      "caracteristicasClave": [
+        "Ilustración integrada de Don Ramón + datos reales de Google Maps (4,9 ★ · 433 reseñas)",
+        "Carta interactiva con Hamburguesas, Perritos XL 24cm, Pizzas 28cm, Salchipapas y Tequeños",
+        "Buscador de ingredientes, exclusión de alérgenos y pedidos/reservas directo por WhatsApp",
+        "Vista limpia independiente sin barra superior para presentación a cliente real"
+      ],
+      "colorMuestraHSL": {
+        "tono": 16,
+        "saturacion": 82,
+        "luminosidad": 42
+      }
+    },
+    {
+      "id": "demo-catalogo-3d",
+      "titulo": "Catálogo de Impresión 3D & Soportes NFC",
+      "sectorNegocio": "Fabricación Aditiva · E-Commerce Modular",
+      "rutaDemo": "/catalogo-3d",
+      "urlEtiquetaNFC": "/catalogo-3d",
+      "resumenFuncional": "Catálogo interactivo de piezas impresas en 3D con selector de variantes por pack, cálculo dinámico de suplemento por chip NFC integrado y galería multi-ángulo.",
+      "caracteristicasClave": [
+        "Carrusel táctil deslizable de 4 en 4 productos con buscador y filtros",
+        "Selector de opciones por unidad/pack con cambio automático de fotografía y precio",
+        "Opción interactiva para añadir chip NFC programado a cualquier pieza",
+        "Estética limpia y adaptable a cualquier marca comercial"
+      ],
+      "colorMuestraHSL": {
+        "tono": 34,
+        "saturacion": 17,
+        "luminosidad": 48
+      }
+    },
+    {
+      "id": "demo-peluqueria",
+      "titulo": "Módulo de Peluquería y Barbería",
+      "sectorNegocio": "Estética · Reservas Móviles Paso a Paso",
+      "rutaDemo": "/peluqueria",
+      "urlEtiquetaNFC": "/peluqueria",
+      "resumenFuncional": "Lookbook de cortes de pelo con asistente de reserva a pantalla completa optimizado para dispositivos móviles en 4 pasos guiados.",
+      "caracteristicasClave": [
+        "Galería de estilos con selección directa de servicio asociado",
+        "Asistente de cita paso a paso (Servicio, Barbero, Fecha/Hora y Confirmación)",
+        "Generación instantánea de resguardo digital con localizador de cita",
+        "Tema visual personalizable mediante variables HSL dinámicas"
+      ],
+      "colorMuestraHSL": {
+        "tono": 24,
+        "saturacion": 38,
+        "luminosidad": 26
+      }
+    }
+  ]
+}
