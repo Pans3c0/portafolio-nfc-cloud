@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react';
  * El comando `npm run build` genera la carpeta `dist/` lista para subir sin servidor Node.
  */
 export default defineConfig({
+  base: '/',
   plugins: [react()],
   build: {
     outDir: 'dist',
