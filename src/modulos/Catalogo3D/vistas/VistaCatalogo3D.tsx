@@ -137,6 +137,13 @@ export const VistaCatalogo3D: React.FC = () => {
           <p className="text-[11px] sm:text-xs font-medium text-[#7e7160] mt-2 max-w-lg mx-auto">
             {configuracion.eslogan}
           </p>
+
+          {/* Banner de contacto directo para encargos personalizados */}
+          <div className="mt-4 inline-flex items-center gap-2 px-3.5 py-1.5 bg-white/90 border border-[#cfc4b4] rounded-full text-xs text-[#5c5040] shadow-2xs">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span>Pedidos directos y encargos 3D personalizados</span>
+            <span className="text-[#8f816d] font-bold">· WhatsApp: {configuracion.telefonoContacto}</span>
+          </div>
         </header>
 
         {/* Buscador y Filtros orientados a cliente final */}
@@ -217,6 +224,7 @@ export const VistaCatalogo3D: React.FC = () => {
                       key={figura.id}
                       figura={figura}
                       simboloMoneda={configuracion.simboloMoneda}
+                      telefonoWhatsApp={configuracion.whatsappPedidos ?? '34689113710'}
                       alSeleccionarProducto={(item) =>
                         setFiguraSeleccionada(item)
                       }
@@ -285,6 +293,7 @@ export const VistaCatalogo3D: React.FC = () => {
       <ModalDetalleFigura3D
         figura={figuraSeleccionada}
         simboloMoneda={configuracion.simboloMoneda}
+        telefonoWhatsApp={configuracion.whatsappPedidos ?? '34689113710'}
         alCerrar={() => setFiguraSeleccionada(null)}
       />
     </div>

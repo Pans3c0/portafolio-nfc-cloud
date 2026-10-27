@@ -17,9 +17,7 @@ export interface PropiedadesFiltroCatalogo3D {
 const CATEGORIAS_DISPONIBLES: CategoriaObjeto3D[] = [
   'Todas',
   'Colección Halloween & Otoño',
-  'Decoración y Hogar',
-  'Soportes NFC',
-  'Escritorio y Orden'
+  'Accesorios y Mascotas'
 ];
 
 /**

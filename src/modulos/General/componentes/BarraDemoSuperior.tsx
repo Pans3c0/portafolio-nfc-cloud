@@ -14,9 +14,12 @@ import { ArrowLeft, Layers, Box, Scissors, Utensils } from 'lucide-react';
 export const BarraDemoSuperior: React.FC = () => {
   const ubicacion = useLocation();
 
-  // Ocultamos la barra superior en la web de Bar & Café Ron Damón (/restaurante)
-  // para presentarla como prototipo 100% independiente al cliente.
-  if (ubicacion.pathname.startsWith('/restaurante')) {
+  // Ocultamos la barra superior tanto en la web del Restaurante (/restaurante)
+  // como en el Catálogo 3D (/catalogo-3d) para presentarlos como experiencias limpias e independientes.
+  if (
+    ubicacion.pathname.startsWith('/restaurante') ||
+    ubicacion.pathname.startsWith('/catalogo-3d')
+  ) {
     return null;
   }
 

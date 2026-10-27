@@ -17,9 +17,7 @@ import { ConfiguracionBaseCliente } from '../../General/interfaces/configuracion
 export type CategoriaObjeto3D =
   | 'Todas'
   | 'Colección Halloween & Otoño'
-  | 'Decoración y Hogar'
-  | 'Soportes NFC'
-  | 'Escritorio y Orden';
+  | 'Accesorios y Mascotas';
 
 export type CriterioOrdenacionCatalogo =
   | 'destacados'
@@ -83,6 +81,7 @@ export interface ConfiguracionCatalogo3D extends ConfiguracionBaseCliente {
   simboloMoneda: string;
   itemsPorPaginaVista: number;
   notaPieCatalogo: string;
+  whatsappPedidos?: string;
 }
 
 export interface FiltrosActivosCatalogo3D {

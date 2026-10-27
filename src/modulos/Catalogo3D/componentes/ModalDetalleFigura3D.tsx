@@ -7,7 +7,8 @@ import {
   Wifi,
   Check,
   Palette,
-  Package
+  Package,
+  MessageCircle
 } from 'lucide-react';
 import { Figura3D, VarianteProducto3D } from '../interfaces/figura3D';
 import { calcularPrecioFinalProducto3D } from '../servicios/servicioCatalogo3D';
@@ -15,6 +16,7 @@ import { calcularPrecioFinalProducto3D } from '../servicios/servicioCatalogo3D';
 export interface PropiedadesModalDetalleFigura3D {
   figura: Figura3D | null;
   simboloMoneda: string;
+  telefonoWhatsApp?: string;
   alCerrar: () => void;
 }
 
@@ -27,7 +29,7 @@ export interface PropiedadesModalDetalleFigura3D {
  */
 export const ModalDetalleFigura3D: React.FC<
   PropiedadesModalDetalleFigura3D
-> = ({ figura, simboloMoneda, alCerrar }) => {
+> = ({ figura, simboloMoneda, telefonoWhatsApp = '34689113710', alCerrar }) => {
   const [indiceImagenActiva, setIndiceImagenActiva] = useState<number>(0);
   const [varianteSeleccionada, setVarianteSeleccionada] =
     useState<VarianteProducto3D | null>(null);
@@ -433,22 +435,32 @@ export const ModalDetalleFigura3D: React.FC<
                 )}
             </div>
 
-            {/* Botón Inferior con Resumen de la Selección */}
-            <button
-              type="button"
-              onClick={alCerrar}
-              className="w-full py-3 px-4 bg-[#8f816d] hover:bg-[#7d705e] text-white font-bold text-xs sm:text-sm rounded-sm border border-[#7d705e] transition-colors flex items-center justify-between"
-            >
-              <span>
-                {varianteSeleccionada
-                  ? varianteSeleccionada.nombre
-                  : figura.nombre}
-                {incluirNFC ? ' + Chip NFC' : ''}
-              </span>
-              <span className="bg-white/20 px-2.5 py-0.5 rounded-full">
-                Total: {precioTotalActualizado} {simboloMoneda}
-              </span>
-            </button>
+            {/* Botones de Acción: Pedir por WhatsApp con opciones + Cerrar */}
+            <div className="space-y-2 pt-1">
+              <a
+                href={`https://wa.me/${telefonoWhatsApp}?text=${encodeURIComponent(
+                  `¡Hola Samuel! Quiero encargar "${figura.nombre}":\n• Opción: ${
+                    varianteSeleccionada ? varianteSeleccionada.nombre : 'Estándar'
+                  }\n• Chip NFC: ${incluirNFC ? 'Sí (+3 €)' : 'No'}${
+                    colorSeleccionado ? `\n• Tono: ${colorSeleccionado}` : ''
+                  }\n• Precio Total: ${precioTotalActualizado} ${simboloMoneda}`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-3 px-4 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs sm:text-sm rounded-sm transition-colors flex items-center justify-center gap-2 shadow-sm"
+              >
+                <MessageCircle className="w-4 h-4" />
+                <span>Pedir esta combinación por WhatsApp ({precioTotalActualizado} {simboloMoneda})</span>
+              </a>
+
+              <button
+                type="button"
+                onClick={alCerrar}
+                className="w-full py-2 px-4 bg-[#f4f0e8] hover:bg-[#eae3d5] text-[#5c5040] text-xs font-semibold rounded-sm border border-[#cfc4b4] transition-colors"
+              >
+                Seguir viendo el catálogo
+              </button>
+            </div>
           </div>
         </div>
       </div>
