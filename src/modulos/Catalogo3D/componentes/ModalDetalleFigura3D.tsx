@@ -13,6 +13,15 @@ import {
 import { Figura3D, VarianteProducto3D } from '../interfaces/figura3D';
 import { calcularPrecioFinalProducto3D } from '../servicios/servicioCatalogo3D';
 
+// Paleta cromática para renderizar muestras visuales reales
+const PALETA_COLORES_HEX: Record<string, { hex: string; borde?: string }> = {
+  'Blanco Hueso (PLA+)': { hex: '#F5F2EB', borde: '#d4cebe' },
+  'Blanco Hueso Original': { hex: '#F5F2EB', borde: '#d4cebe' },
+  'Arena Cálida': { hex: '#D2B48C', borde: '#b89c74' },
+  'Negro Mate (PLA)': { hex: '#1C1C1C', borde: '#383838' },
+  'Negro Azabache': { hex: '#111111', borde: '#333333' }
+};
+
 export interface PropiedadesModalDetalleFigura3D {
   figura: Figura3D | null;
   simboloMoneda: string;
@@ -404,29 +413,48 @@ export const ModalDetalleFigura3D: React.FC<
                 </div>
               )}
 
-              {/* Selector Opcional de Color (Solo se pinta si existe en el JSON) */}
+              {/* Selector Visual de Color */}
               {figura.coloresDisponibles &&
                 figura.coloresDisponibles.length > 0 && (
-                  <div className="bg-white border border-[#cfc4b4] rounded-md p-3.5 space-y-2">
-                    <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#6e6253]">
-                      <Palette className="w-3.5 h-3.5 text-[#8f816d]" />
-                      <span>Tono: {colorSeleccionado}</span>
+                  <div className="bg-white border border-[#cfc4b4] rounded-md p-3.5 space-y-2.5">
+                    <div className="flex items-center justify-between text-xs">
+                      <div className="flex items-center gap-1.5 font-bold uppercase tracking-wider text-[#6e6253]">
+                        <Palette className="w-3.5 h-3.5 text-[#8f816d]" />
+                        <span>Tono de acabado:</span>
+                      </div>
+                      <span className="font-semibold text-[#4a4238]">
+                        {colorSeleccionado}
+                      </span>
                     </div>
-                    <div className="flex flex-wrap gap-1.5">
+
+                    <div className="flex flex-wrap gap-2 pt-1">
                       {figura.coloresDisponibles.map((color) => {
                         const activo = color === colorSeleccionado;
+                        const infoColor = PALETA_COLORES_HEX[color] ?? {
+                          hex: '#cfc4b4',
+                          borde: '#b0a392'
+                        };
+
                         return (
                           <button
                             key={color}
                             type="button"
                             onClick={() => setColorSeleccionado(color)}
-                            className={`px-3 py-1 text-xs rounded-full border transition-colors ${
+                            className={`group flex items-center gap-2 px-3 py-1.5 text-xs rounded-full border transition-all ${
                               activo
-                                ? 'bg-[#8f816d] text-white border-[#7d705e] font-medium'
+                                ? 'bg-[#8f816d] text-white border-[#7d705e] shadow-xs'
                                 : 'bg-[#f7f4ee] text-[#5c5246] border-[#cfc4b4] hover:border-[#8f816d]'
                             }`}
                           >
-                            {color}
+                            {/* Círculo con muestra de color real */}
+                            <span
+                              className="w-3.5 h-3.5 rounded-full border shadow-2xs shrink-0 transition-transform group-hover:scale-110"
+                              style={{
+                                backgroundColor: infoColor.hex,
+                                borderColor: infoColor.borde ?? '#a09482'
+                              }}
+                            />
+                            <span>{color}</span>
                           </button>
                         );
                       })}

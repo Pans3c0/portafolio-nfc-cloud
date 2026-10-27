@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Hand } from 'lucide-react';
 import {
   ConfiguracionCatalogo3D,
@@ -46,6 +47,7 @@ const EstrellaEditorialSVG: React.FC<{ className?: string }> = ({
  * y modal con selector de variantes (Pack vs. 1 Unidad) + suplemento NFC.
  */
 export const VistaCatalogo3D: React.FC = () => {
+  const [parametrosBusqueda, setParametrosBusqueda] = useSearchParams();
   const [configuracion] = useState<ConfiguracionCatalogo3D>(() =>
     obtenerConfiguracionCatalogo3D()
   );
@@ -57,6 +59,30 @@ export const VistaCatalogo3D: React.FC = () => {
     useState<Figura3D | null>(null);
 
   const contenedorCarruselRef = useRef<HTMLDivElement | null>(null);
+
+  // Sincronización de apertura directa vía enlace (Deep Linking por ?producto= o ?id=)
+  useEffect(() => {
+    const idOParametro =
+      parametrosBusqueda.get('producto') || parametrosBusqueda.get('id');
+
+    if (idOParametro) {
+      const terminoLimpio = idOParametro.toLowerCase().trim();
+      const figuraEncontrada = listaFiguras.find(
+        (f) =>
+          f.id.toLowerCase() === terminoLimpio ||
+          f.id.toLowerCase().includes(terminoLimpio) ||
+          f.nombre.toLowerCase().includes(terminoLimpio) ||
+          (terminoLimpio === 'dispensador' && f.id === 'fig-09') ||
+          (terminoLimpio === 'fantasma' && f.id === 'fig-01') ||
+          (terminoLimpio === 'calabaza' && f.id === 'fig-02') ||
+          (terminoLimpio === 'calavera' && f.id === 'fig-calavera-mexicana')
+      );
+
+      if (figuraEncontrada) {
+        setFiguraSeleccionada(figuraEncontrada);
+      }
+    }
+  }, [parametrosBusqueda, listaFiguras]);
 
   useEffect(() => {
     aplicarTemaCliente(configuracion.colorBaseHSL);
@@ -294,7 +320,18 @@ export const VistaCatalogo3D: React.FC = () => {
         figura={figuraSeleccionada}
         simboloMoneda={configuracion.simboloMoneda}
         telefonoWhatsApp={configuracion.whatsappPedidos ?? '34689113710'}
-        alCerrar={() => setFiguraSeleccionada(null)}
+        alCerrar={() => {
+          setFiguraSeleccionada(null);
+          // Si había parámetro en la URL, lo limpiamos suavemente sin recargar la página
+          if (
+            parametrosBusqueda.has('producto') ||
+            parametrosBusqueda.has('id')
+          ) {
+            parametrosBusqueda.delete('producto');
+            parametrosBusqueda.delete('id');
+            setParametrosBusqueda(parametrosBusqueda, { replace: true });
+          }
+        }}
       />
     </div>
   );
