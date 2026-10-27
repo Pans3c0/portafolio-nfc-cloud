@@ -177,7 +177,7 @@
     "resumenCortoTarjeta": "Dispensador portátil para correa o paseo.",
     "textoDisponibilidadTarjeta": "Varios modelos y opción NFC",
     "categoria": "Accesorios y Mascotas",
-    "precioReferenciaEuros": 8.0,
+    "precioReferenciaEuros": 5.0,
     "disponibleEnStock": true,
     "unidadesDisponibles": 12,
     "descripcion": "Dispensadores compactos y resistentes para rollos estándar de bolsas higiénicas de paseo canino. Diseñados con enganche para correa o mosquetón, con opciones de textura moderna, espiral ergonómica, huellas en relieve o forma clásica de hueso.",
@@ -207,35 +207,35 @@
       {
         "idVariante": "var-dispensador-hueso",
         "nombre": "1 Ud. · Modelo Hueso Clásico",
-        "precio": 8.0,
+        "precio": 5.0,
         "idImagenAsociada": "img-09-d",
         "detalle": "Diseño en forma de hueso con anilla y ranura frontal para extracción rápida"
       },
       {
         "idVariante": "var-dispensador-huellas",
         "nombre": "1 Ud. · Modelo Huellas Relieve",
-        "precio": 8.0,
+        "precio": 5.0,
         "idImagenAsociada": "img-09-c",
         "detalle": "Cilíndrico con ranura lateral y huellas decorativas"
       },
       {
         "idVariante": "var-dispensador-geometrico",
         "nombre": "1 Ud. · Modelo Geométrico Bicolor",
-        "precio": 9.0,
+        "precio": 6.0,
         "idImagenAsociada": "img-09-a",
         "detalle": "Cuerpo marfil texturado con tapa negra de ajuste roscado"
       },
       {
         "idVariante": "var-dispensador-espiral",
         "nombre": "1 Ud. · Modelo Espiral Torsión",
-        "precio": 8.0,
+        "precio": 6.0,
         "idImagenAsociada": "img-09-b",
         "detalle": "Diseño helicoidal ergonómico con argolla superior"
       },
       {
         "idVariante": "var-dispensador-pack2",
         "nombre": "Pack Paseo Dúo (2 Dispensadores)",
-        "precio": 14.0,
+        "precio": 8.50,
         "idImagenAsociada": "img-09-a",
         "detalle": "Elige 2 modelos a juego para dos correas o repuesto"
       }
@@ -248,7 +248,6 @@
     },
     "coloresDisponibles": [
       "Blanco Hueso (PLA+)",
-      "Arena Cálida",
       "Negro Mate (PLA)"
     ]
   }
