@@ -418,5 +418,86 @@
       "etiqueta": "Incluir Chip NFC Ya Configurado",
       "descripcion": "Listo para usar nada más sacarlo de la caja."
     }
+  },
+  {
+    "id": "fig-09",
+    "nombre": "Dispensador de Bolsas para Mascotas",
+    "resumenCortoTarjeta": "Dispensador portátil para correa o paseo.",
+    "textoDisponibilidadTarjeta": "Varios modelos y opción NFC",
+    "categoria": "Accesorios y Mascotas",
+    "precioReferenciaEuros": 8.0,
+    "disponibleEnStock": true,
+    "unidadesDisponibles": 12,
+    "descripcion": "Dispensadores compactos y resistentes para rollos estándar de bolsas higiénicas de paseo canino. Diseñados con enganche para correa o mosquetón, con opciones de textura moderna, espiral ergonómica, huellas en relieve o forma clásica de hueso.",
+    "galeriaImagenes": [
+      {
+        "idImagen": "img-09-a",
+        "tituloVista": "Modelo Geométrico Bicolor con Tapa Texturada",
+        "urlImagen": "/assets/Catalogo3D/dispensador-perros/dispensador-01.webp"
+      },
+      {
+        "idImagen": "img-09-b",
+        "tituloVista": "Modelo Espiral Torsión con Anilla de Sujeción",
+        "urlImagen": "/assets/Catalogo3D/dispensador-perros/dispensador-02.webp"
+      },
+      {
+        "idImagen": "img-09-c",
+        "tituloVista": "Modelo Huellas Caninas en Relieve",
+        "urlImagen": "/assets/Catalogo3D/dispensador-perros/dispensador-03.webp"
+      },
+      {
+        "idImagen": "img-09-d",
+        "tituloVista": "Modelo Silueta Hueso con Ranura Central",
+        "urlImagen": "/assets/Catalogo3D/dispensador-perros/dispensador-04.webp"
+      }
+    ],
+    "variantes": [
+      {
+        "idVariante": "var-dispensador-hueso",
+        "nombre": "1 Ud. · Modelo Hueso Clásico",
+        "precio": 8.0,
+        "idImagenAsociada": "img-09-d",
+        "detalle": "Diseño en forma de hueso con anilla y ranura frontal para extracción rápida"
+      },
+      {
+        "idVariante": "var-dispensador-huellas",
+        "nombre": "1 Ud. · Modelo Huellas Relieve",
+        "precio": 8.0,
+        "idImagenAsociada": "img-09-c",
+        "detalle": "Cilíndrico con ranura lateral y huellas decorativas"
+      },
+      {
+        "idVariante": "var-dispensador-geometrico",
+        "nombre": "1 Ud. · Modelo Geométrico Bicolor",
+        "precio": 9.0,
+        "idImagenAsociada": "img-09-a",
+        "detalle": "Cuerpo marfil texturado con tapa negra de ajuste roscado"
+      },
+      {
+        "idVariante": "var-dispensador-espiral",
+        "nombre": "1 Ud. · Modelo Espiral Torsión",
+        "precio": 8.0,
+        "idImagenAsociada": "img-09-b",
+        "detalle": "Diseño helicoidal ergonómico con argolla superior"
+      },
+      {
+        "idVariante": "var-dispensador-pack2",
+        "nombre": "Pack Paseo Dúo (2 Dispensadores)",
+        "precio": 14.0,
+        "idImagenAsociada": "img-09-a",
+        "detalle": "Elige 2 modelos a juego para dos correas o repuesto"
+      }
+    ],
+    "opcionNFC": {
+      "disponible": true,
+      "precioExtra": 3.0,
+      "etiqueta": "Agregar Chip NFC Identificativo",
+      "descripcion": "Integramos un microchip NFC grabado con tu teléfono de contacto o ficha de la mascota, legible al acercar cualquier móvil."
+    },
+    "coloresDisponibles": [
+      "Blanco Hueso (PLA+)",
+      "Arena Cálida",
+      "Negro Mate (PLA)"
+    ]
   }
 ]
